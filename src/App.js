@@ -1,9 +1,7 @@
-import './App.css';git
-import {useState} from "react";
+import './App.css';
 import CheezburgerExchange from "./cheezburgerExchange/cheezburgerExchange";
 
 function App() {
-  const [userName, SetUserName] = useState('Cuthbert');
 
   return (
     <div className="App">
