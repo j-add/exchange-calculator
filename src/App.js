@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from "./Nav/Nav";
+import Main from "./Main/Main";
+import Footer from "./Footer/Footer";
+import CoinToss from "./CoinToss/CoinToss";
+import {useState} from "react";
+import CheezburgerExchange from "./cheezburgerExchange/cheezburgerExchange";
 
 function App() {
+  const [userName, SetUserName] = useState('Cuthbert');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/*<CoinToss />*/}
+        {/*<Nav name={userName} />*/}
+        {/*<Main name={userName} />*/}
+        {/*<Footer name={userName} />*/}
+      <CheezburgerExchange />
     </div>
   );
 }

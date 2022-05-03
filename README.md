@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+# Cheezeburger Exchange Calculator
+
+An exchange calculator that tells you how many cheezeburgers you can order from my local burger joint.
+
+Displays the live bitcoin exchange rate and uses live USD and EUR exchange rates to calculate the price of a burger
+in the respective currencies (service and shipping not included).
+
+## APIs
+
+This project consumes the following APIs:
+* Coindesk API
+  * Live bitcoin exchange rate
+  * https://api.coindesk.com/v1/bpi/currentprice.json
+  * https://www.programmableweb.com/api/coindesk-rest-api
+
+* exchangerate.host
+  * Live currency exchange rates (USD & EUR)
+  * https://exchangerate.host/#/docs
+
+
+
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -45,26 +67,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
