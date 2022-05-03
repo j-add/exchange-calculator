@@ -1,9 +1,0 @@
-.soLonely {
-    width: 200px;
-    height: 100px;
-    border: 2px solid #000;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
