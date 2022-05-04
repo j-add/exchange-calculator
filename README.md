@@ -5,6 +5,12 @@ An exchange calculator that tells you how many cheezeburgers you can order from 
 Displays the live bitcoin exchange rate and uses live USD and EUR exchange rates to calculate the price of a burger
 in the respective currencies (service and shipping not included).
 
+## Links
+
+- [Repo](https://github.com/j-add/exchange-calculator "Exchange Calculator Repo")
+
+- [Live](https://2022-jordana.dev.io-academy.uk/bit-burger/ "Live View")
+
 ## APIs
 
 This project consumes the following APIs:
