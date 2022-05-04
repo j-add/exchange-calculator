@@ -1,4 +1,4 @@
-# Cheezeburger Exchange Calculator
+# 🍔 Cheezeburger Exchange Calculator 🍔
 
 An exchange calculator that tells you how many cheezeburgers you can order from my local burger joint.
 
